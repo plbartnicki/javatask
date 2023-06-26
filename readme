@@ -1,0 +1,13 @@
+Dockerfile - definition of the docker image build
+docker-compose - used to run Docker container
+
+----
+
+Test the Application
+docker-compose run --rm  maven mvn package
+
+Package the Application
+docker-compose run --rm  maven mvn package
+
+Run the Application
+docker-compose run --rm application
